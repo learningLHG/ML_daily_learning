@@ -1,0 +1,6 @@
+使用 list() 处理 Python 原生可迭代对象
+
+使用 .tolist() 处理 NumPy 数组或 Pandas 对象，特别是需要完全转换为 Python 原生数据结构时
+
+对于多维数组，.tolist() 会递归地将所有元素转换为 Python 原生类型，而 list() 只转换最外层
+
